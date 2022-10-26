@@ -10,12 +10,17 @@ def quick_sort(sequence):
 
     items_greater = []
     items_lower = []
+    item_equal = []
 
     for item in sequence:
-        if item #greater than pivot:
+        if item > pivot:
             items_greater.append(item)
-
+        elif item == pivot:
+            item_equal.append(item)
         else:
             items_lower.append(item)
 
-    return quick_sort(items_lower) + [pivot] + quick_sort(items_greater)
+    return quick_sort(items_lower) + [pivot] +item_equal+ quick_sort(items_greater)
+
+
+print(quick_sort([1,1,1,1,1]))
