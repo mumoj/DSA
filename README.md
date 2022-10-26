@@ -1,1 +1,1 @@
-# DSA
+A collection of DSA solutions
