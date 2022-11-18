@@ -7,7 +7,7 @@ def QuestionsMarks(strp):
       return s
     except:
       return False
-
+      
   h_map = [ an_int(i) for i in strp ]
   for i,_ in enumerate(h_map):
 
