@@ -22,5 +22,6 @@ if __name__ == '__main__':
     r = encode(["li*nt", "*", "code","love","you"])
     print(r)
     d = decode('5*li*nt1**4*code4*love3*you')
+
     
    
